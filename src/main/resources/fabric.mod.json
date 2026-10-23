@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "anarchiabot",
+  "version": "${version}",
+  "name": "Anarchia Bot",
+  "description": "Klawisz K otwiera panel, z którego wysyłasz i sterujesz botem (dołączanie, komendy, kliknięcia w GUI serwera).",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.anarchiabot.AnarchiaBotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
